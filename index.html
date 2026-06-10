@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premier Schools Exhibition, Gurugram — Discover 30+ top schools all in one place. Apparel House, Sec 44, Gurugram. 2–3 August 2025.">
+  <meta name="theme-color" content="#13193f">
+  <title>Premier Schools Exhibition — Discover Gurugram's Top 30+ Schools</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="#main" aria-label="Premier Schools Exhibition home">
+        <span class="logo-badge">
+          <span class="logo-badge__edition">22<sup>nd</sup> Edition</span>
+          <span class="logo-badge__line logo-badge__line--top">Premier</span>
+          <span class="logo-badge__line">Schools</span>
+          <span class="logo-badge__line logo-badge__line--accent">Exhibition</span>
+        </span>
+      </a>
+      <button class="btn btn--split" type="button" data-open-dialog="register-dialog">
+        <span class="btn__icon" aria-hidden="true">↗</span>
+        <span class="btn__label">Register Now</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__intro">
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__title-eyebrow">Discover Gurugram's</span>
+            <span class="hero__title-main">Top 30+ Schools</span>
+            <span class="hero__title-sub">All In One Place</span>
+          </h1>
+
+          <p class="hero__pill">
+            <span class="hero__pill-place">
+              <strong>Apparel House,</strong><br>Sec 44, Gurugram
+            </span>
+            <span class="hero__pill-divider" aria-hidden="true"></span>
+            <span class="hero__pill-date">
+              <strong>2–3 August 2025</strong><br>Sat–Sun | 10AM – 6PM
+            </span>
+          </p>
+        </div>
+
+        <!-- Dual-axis hero slider: horizontal slides, each column drifts vertically -->
+        <div class="hero-slider" aria-roledescription="carousel" aria-label="Students at the exhibition">
+          <div class="hero-slider__viewport" data-hero-viewport>
+            <ul class="hero-slider__track" data-hero-track>
+              <!-- slide 1 -->
+              <li class="hero-slide" role="group" aria-roledescription="slide" aria-label="1 of 2">
+                <div class="hero-slide__col hero-slide__col--up">
+                  <img class="hero-slide__img" src="images/hero/hero-1.jpg" width="360" height="580" alt="Smiling primary-school student in uniform.">
+                  <img class="hero-slide__img" src="images/hero/hero-4.jpg" width="360" height="580" alt="Young student enjoying an arts activity.">
+                </div>
+                <div class="hero-slide__col hero-slide__col--down">
+                  <img class="hero-slide__img" src="images/hero/hero-2.jpg" width="360" height="580" alt="Student carrying books to class.">
+                  <img class="hero-slide__img" src="images/hero/hero-5.jpg" width="360" height="580" alt="Student practising cricket.">
+                </div>
+                <div class="hero-slide__col hero-slide__col--up">
+                  <img class="hero-slide__img" src="images/hero/hero-3.jpg" width="360" height="580" alt="Student playing golf on a sunny field.">
+                  <img class="hero-slide__img" src="images/hero/hero-6.jpg" width="360" height="580" alt="Student cycling with a safety helmet.">
+                </div>
+              </li>
+              <!-- slide 2 -->
+              <li class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2">
+                <div class="hero-slide__col hero-slide__col--up">
+                  <img class="hero-slide__img" src="images/hero/hero-5.jpg" width="360" height="580" alt="Student with sports equipment.">
+                  <img class="hero-slide__img" src="images/hero/hero-2.jpg" width="360" height="580" alt="Student holding a textbook.">
+                </div>
+                <div class="hero-slide__col hero-slide__col--down">
+                  <img class="hero-slide__img" src="images/hero/hero-6.jpg" width="360" height="580" alt="Student riding a bicycle.">
+                  <img class="hero-slide__img" src="images/hero/hero-3.jpg" width="360" height="580" alt="Student on a green sports field.">
+                </div>
+                <div class="hero-slide__col hero-slide__col--up">
+                  <img class="hero-slide__img" src="images/hero/hero-4.jpg" width="360" height="580" alt="Student during a creative session.">
+                  <img class="hero-slide__img" src="images/hero/hero-1.jpg" width="360" height="580" alt="Student smiling in school uniform.">
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-slider__controls">
+            <button class="slider-arrow" type="button" data-hero-prev aria-label="Previous students">
+              <span aria-hidden="true">←</span>
+            </button>
+            <div class="hero-slider__dots" role="tablist" aria-label="Choose slide" data-hero-dots></div>
+            <button class="slider-arrow" type="button" data-hero-next aria-label="Next students">
+              <span aria-hidden="true">→</span>
+            </button>
+            <button class="slider-arrow slider-arrow--play" type="button" data-hero-play aria-label="Pause automatic slideshow" aria-pressed="true">
+              <span data-hero-play-icon aria-hidden="true">❚❚</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Enquiry form -->
+        <div class="enquiry">
+          <h2 class="enquiry__title">Enquire Now</h2>
+          <form class="enquiry__form" novalidate data-form="enquiry">
+            <div class="field">
+              <label class="field__label" for="enq-name">Parent's Name</label>
+              <input class="field__input" id="enq-name" name="name" type="text" autocomplete="name" placeholder="Parent's Name" required>
+            </div>
+            <div class="field">
+              <label class="field__label" for="enq-phone">Phone number</label>
+              <input class="field__input" id="enq-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Phone number" required>
+            </div>
+            <div class="field">
+              <label class="field__label" for="enq-grade">Which grade are you looking for?</label>
+              <textarea class="field__input field__input--area" id="enq-grade" name="grade" rows="3" placeholder="Which grade are you looking for?"></textarea>
+            </div>
+            <button class="btn btn--split btn--submit" type="submit">
+              <span class="btn__icon" aria-hidden="true">↗</span>
+              <span class="btn__label">Submit</span>
+            </button>
+            <p class="form__status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS + SCHOOLS ============ -->
+    <section class="proof" aria-labelledby="proof-title">
+      <h2 id="proof-title" class="visually-hidden">Why parents trust the Premier Schools Exhibition</h2>
+      <div class="container">
+        <ul class="stats">
+          <li class="stats__item">
+            <span class="stats__wreath" aria-hidden="true"></span>
+            <span class="stats__text">Trusted by<br><strong>1 Million+</strong><br>Parents</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__wreath" aria-hidden="true"></span>
+            <span class="stats__text"><strong>22+</strong><br><strong>Years</strong><br>of Legacy</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__wreath" aria-hidden="true"></span>
+            <span class="stats__text"><strong>500+</strong><br>Participating<br>Schools</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__wreath" aria-hidden="true"></span>
+            <span class="stats__text"><strong>17 Cities</strong><br>Across the<br>Globe</span>
+          </li>
+        </ul>
+      </div>
+
+      <h2 class="section-title section-title--center">Participating Schools</h2>
+
+      <div class="marquee" aria-label="Participating schools" data-marquee>
+        <div class="marquee__row marquee__row--left" data-marquee-row>
+          <!-- track duplicated in JS / CSS for seamless loop -->
+          <ul class="marquee__track">
+            <li class="marquee__item"><img src="images/schools/school-01.svg" alt="Meridian International" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-02.svg" alt="Oakfield Academy" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-03.svg" alt="Kingswood College" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-04.svg" alt="Heritage School" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-05.svg" alt="Riverside Global" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-06.svg" alt="Summit Grammar" width="200" height="90" loading="lazy"></li>
+          </ul>
+        </div>
+        <div class="marquee__row marquee__row--right" data-marquee-row>
+          <ul class="marquee__track">
+            <li class="marquee__item"><img src="images/schools/school-07.svg" alt="Willow Preparatory" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-08.svg" alt="Astoria World School" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-01.svg" alt="Meridian International" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-04.svg" alt="Heritage School" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-06.svg" alt="Summit Grammar" width="200" height="90" loading="lazy"></li>
+            <li class="marquee__item"><img src="images/schools/school-03.svg" alt="Kingswood College" width="200" height="90" loading="lazy"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHOOSE THE SCHOOL ============ -->
+    <section class="choose" aria-labelledby="choose-title">
+      <div class="container">
+        <h2 class="section-title section-title--center" id="choose-title">Choose the School That Fits You Best</h2>
+
+        <div class="choose__slider" data-card-slider>
+          <ul class="choose__grid" data-card-track>
+            <li class="choose-card">
+              <img class="choose-card__img" src="images/cards/card-1.jpg" alt="Children reading in a bright library." width="520" height="600" loading="lazy">
+              <div class="choose-card__body">
+                <h3 class="choose-card__title">Pre-Schools &amp; Early Learning Centres</h3>
+                <p class="choose-card__text">Nurturing foundational skills for toddlers and pre-primary children.</p>
+              </div>
+            </li>
+            <li class="choose-card">
+              <img class="choose-card__img" src="images/cards/card-2.jpg" alt="Student giving a thumbs up before class." width="520" height="600" loading="lazy">
+              <div class="choose-card__body">
+                <h3 class="choose-card__title">K–12 CBSE Day Schools</h3>
+                <p class="choose-card__text">Reputed schools offering complete schooling from Kindergarten to Grade 12.</p>
+              </div>
+            </li>
+            <li class="choose-card">
+              <img class="choose-card__img" src="images/cards/card-3.jpg" alt="Student using a microscope in a science lab." width="520" height="600" loading="lazy">
+              <div class="choose-card__body">
+                <h3 class="choose-card__title">Heritage to New-Age Schools</h3>
+                <p class="choose-card__text">Time-tested schools to innovative pedagogy, tech-enabled, future-ready schools.</p>
+              </div>
+            </li>
+            <li class="choose-card">
+              <img class="choose-card__img" src="images/cards/card-4.jpg" alt="Students chatting in a boarding-school setting." width="520" height="600" loading="lazy">
+              <div class="choose-card__body">
+                <h3 class="choose-card__title">International Curriculum Schools</h3>
+                <p class="choose-card__text">Offering IB, Cambridge, Finnish and other global curricula with a global learning environment.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="slider-dots" role="tablist" aria-label="Choose school category" data-card-dots></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRE-SCHEDULE ============ -->
+    <section class="appoint" aria-labelledby="appoint-title">
+      <div class="container appoint__inner">
+        <div class="appoint__copy">
+          <p class="appoint__eyebrow">Exciting Opportunities for Parents!</p>
+          <h2 class="appoint__title" id="appoint-title">Pre-schedule Your<br>School Appointments</h2>
+          <p class="appoint__sub">To Avoid Rush</p>
+          <button class="btn btn--split btn--dark" type="button" data-open-dialog="register-dialog">
+            <span class="btn__icon" aria-hidden="true">↗</span>
+            <span class="btn__label">Pre-schedule Now</span>
+          </button>
+        </div>
+      </div>
+      <div class="appoint__media" role="img" aria-label="Parents speaking with a school representative at the exhibition"></div>
+    </section>
+
+    <!-- ============ EXHIBITION SLIDER ============ -->
+    <section class="exhibit" aria-labelledby="exhibit-title">
+      <h2 class="section-title section-title--light section-title--center" id="exhibit-title">What Makes This Exhibition a Must-Visit</h2>
+
+      <div class="exhibit__slider" aria-roledescription="carousel" aria-label="Reasons to visit the exhibition">
+        <ul class="exhibit__track" data-exhibit-track>
+          <li class="exhibit-card">
+            <span class="exhibit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+            </span>
+            <h3 class="exhibit-card__title">Interact Directly with School Heads</h3>
+            <p class="exhibit-card__text">Get answers straight from the experts.</p>
+          </li>
+          <li class="exhibit-card">
+            <span class="exhibit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><path d="M9 13h6M9 17h4"/></svg>
+            </span>
+            <h3 class="exhibit-card__title">Compare Curriculum &amp; Pedagogy</h3>
+            <p class="exhibit-card__text">Understand the differences between CBSE, ICSE, IB, Cambridge, Finnish &amp; more.</p>
+          </li>
+          <li class="exhibit-card">
+            <span class="exhibit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"/><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/></svg>
+            </span>
+            <h3 class="exhibit-card__title">Get Exclusive Fee Structures &amp; Offers</h3>
+            <p class="exhibit-card__text">Access transparent information and avail offers.</p>
+          </li>
+          <li class="exhibit-card">
+            <span class="exhibit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4M8 9l2 2 4-4"/></svg>
+            </span>
+            <h3 class="exhibit-card__title">Explore Schools Offerings</h3>
+            <p class="exhibit-card__text">Preview infrastructure, co-curricular, teaching methodology and culture.</p>
+          </li>
+          <li class="exhibit-card">
+            <span class="exhibit-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="M7 10v5a5 3 0 0 0 10 0v-5"/></svg>
+            </span>
+            <h3 class="exhibit-card__title">On-the-Spot Admissions &amp; Counselling</h3>
+            <p class="exhibit-card__text">Save time with instant applications and expert guidance.</p>
+          </li>
+        </ul>
+
+        <div class="exhibit__controls">
+          <button class="slider-arrow slider-arrow--ghost" type="button" data-exhibit-prev aria-label="Previous highlights">
+            <span aria-hidden="true">←</span>
+          </button>
+          <button class="slider-arrow slider-arrow--solid" type="button" data-exhibit-next aria-label="Next highlights">
+            <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+      <div class="exhibit__curve" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="logo-badge logo-badge--sm">
+          <span class="logo-badge__edition">22<sup>nd</sup> Edition</span>
+          <span class="logo-badge__line logo-badge__line--top">Premier</span>
+          <span class="logo-badge__line">Schools</span>
+          <span class="logo-badge__line logo-badge__line--accent">Exhibition</span>
+        </span>
+      </div>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading"><span class="footer-pin" aria-hidden="true">📍</span> Corporate Office:</h2>
+        <address class="site-footer__text">Suite B-5, Ballygunge Park Tower,<br>67B Ballygunge Circular Road,<br>Kolkata – 700019</address>
+      </div>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading"><span class="footer-pin" aria-hidden="true">📍</span> Ahmedabad Office:</h2>
+        <address class="site-footer__text">12/AA, Swastik Chambers, Near CU<br>Shah College, Ashram Road,<br>Ahmedabad – 380009</address>
+      </div>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading"><span class="footer-pin" aria-hidden="true">📞</span> Call us on</h2>
+        <p class="site-footer__text">
+          <a href="tel:+919674805912">9674805912</a><br>
+          <a href="tel:+919674585012">9674585012</a>
+        </p>
+      </div>
+
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">Follow us on</h2>
+        <ul class="social">
+          <li><a class="social__link" href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a></li>
+          <li><a class="social__link" href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14V9.5c0-.3.2-.5.5-.5z"/></svg>
+          </a></li>
+          <li><a class="social__link" href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="site-footer__copy">Copyright © 2025 | All rights reserved. Premier Schools Exhibition</p>
+  </footer>
+
+  <!-- ============ REGISTER / GET-IN-TOUCH DIALOG ============ -->
+  <div class="dialog-overlay" id="register-dialog" data-dialog hidden>
+    <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+      <button class="dialog__close" type="button" data-close-dialog aria-label="Close form">×</button>
+      <h2 class="dialog__title" id="dialog-title">Get in Touch</h2>
+      <form class="dialog__form" novalidate data-form="register">
+        <div class="field">
+          <label class="field__label" for="reg-name">Your Full Name</label>
+          <input class="field__input field__input--light" id="reg-name" name="name" type="text" autocomplete="name" placeholder="Type here…" required>
+        </div>
+        <div class="field">
+          <label class="field__label" for="reg-email">Email ID</label>
+          <input class="field__input field__input--light" id="reg-email" name="email" type="email" autocomplete="email" placeholder="Type here…" required>
+        </div>
+        <div class="field">
+          <label class="field__label" for="reg-phone">Contact Number</label>
+          <input class="field__input field__input--light" id="reg-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Type here…" required>
+        </div>
+        <div class="field">
+          <label class="field__label" for="reg-message">Message</label>
+          <textarea class="field__input field__input--light field__input--area" id="reg-message" name="message" rows="3" placeholder="Type here…"></textarea>
+        </div>
+        <button class="btn btn--split btn--submit" type="submit">
+          <span class="btn__icon" aria-hidden="true">↗</span>
+          <span class="btn__label">Submit</span>
+        </button>
+        <p class="form__status" role="status" aria-live="polite" data-form-status></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
